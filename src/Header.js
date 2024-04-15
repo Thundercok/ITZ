@@ -19,11 +19,6 @@ function Header() {
           </li>
         </ul>
       </nav>
-      <div className='greeting'>
-        <h1>IT-Zone xin chào!</h1>
-        <p>Bạn cần giúp đỡ gì ?</p>
-        <button>Nhận sự hỗ trợ ngay!</button>
-      </div>
     </header>
   );
 }
