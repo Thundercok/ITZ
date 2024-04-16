@@ -1,6 +1,6 @@
 // App.js
 import React from 'react';
-import Home from './Home';
+import Home from './web/Home';
 
 function App() {
   return (
