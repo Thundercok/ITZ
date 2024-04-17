@@ -3,3 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* Font chính */
+.quick_sand {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 500;
+}
+.roboto_slab {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+}
+
+/* Header */
+.header-default {
+  border-radius: 10px;
+  padding: 10px 70px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+}
+.header-font {
+  color: #b2b2b2;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.header-font:hover {
+  color: black;
+  text-decoration: underline;
+}

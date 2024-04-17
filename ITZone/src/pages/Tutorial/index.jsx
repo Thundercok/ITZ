@@ -1,14 +1,14 @@
 import Header from "../../components/Header";
 
-const Login = () => {
+const Tutorial = () => {
   return (
     <>
       <Header/>
-      <div>
-        <h1>Login page</h1>
+      <div className="">
+        <h1>Tutorial page</h1>
       </div>
     </>
   );
 };
 
-export default Login;
+export default Tutorial;
