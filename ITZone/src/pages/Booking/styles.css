@@ -3,18 +3,20 @@ body {
     font-family: 'Quicksand', sans-serif;
     background-color: #f8f9fa;
     margin: 0;
-    padding: 0;
+    padding: 10;
   }
   
   .container {
+
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 110vh;
     background-color: #f8f9fa;
-    padding: 20px; /* Add padding to center contents */
-    width: 100%; /* Full width */
-    margin: 0 auto; /* Center the container horizontally */
+    padding: 10px; 
+    width: 100%;
+    
+    margin: 0 auto; 
   }
   
   .box {
@@ -95,7 +97,6 @@ body {
     color: #28a745;
   }
   
-  /* Side Text */
   .side-text {
     margin-top: 20px;
     text-align: left;
