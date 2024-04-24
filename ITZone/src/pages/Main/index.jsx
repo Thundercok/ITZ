@@ -1,5 +1,6 @@
 import Header from "../../components/Header/index.jsx";
 import { Link } from "react-router-dom";
+
 const Main = () => {
   return (
     <>
@@ -16,9 +17,9 @@ const Main = () => {
           <h1 className="flex justify-end w-full pb-6 text-5xl font-bold">
             IT-Zone xin chào!
           </h1>
-          <h1 className="flex justify-end w-full pb-6 text-5xl font-bold">
+          <h2 className="flex justify-end w-full pb-4 text-4xl">
             Bạn cần giúp đỡ gì?
-          </h1>
+          </h2>
           <Link
             className="w-full flex justify-end text-2xl text-blue-500 underline"
             to="/tutorial"
