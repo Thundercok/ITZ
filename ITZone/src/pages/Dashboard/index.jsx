@@ -1,17 +1,17 @@
 import React, { useState } from "react";
 
-import Header from "ITZone/src/components/User_Header";
-import Sidebar from "ITZone/src/components/Sidebar";
-import Profile from 'ITZone/src/components/Profile';
-import TasksList from 'ITZone/src/components/TasksList';
-import Calendar from 'ITZone/src/components/Calendar';
-import Notifications from 'ITZone/src/components/Notifications';
+import User_Header from "../../components/User_Header";
+import Sidebar from "../../components/Sidebar";
+import Profile from '../../components/Profile';
+import TasksList from '../../components/TasksList';
+import Calendar from '../../components/Calendar';
+import Notifications from '../../components/Notifications';
 
 
 const Dashboard = () => {
   return (
     <div>
-      <Header />
+      <User_Header />
       <div className="container">
         <Sidebar />
         <MainContent>

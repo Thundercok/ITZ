@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { useHistory } from "react-router-dom"; // Import useHistory hook
 import Header from "../../components/Header";
 import "./styles.css"; 
 
@@ -6,6 +7,7 @@ const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const history = useHistory(); // Initialize useHistory hook
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -18,6 +20,8 @@ const Login = () => {
       setUsername("");
       setPassword("");
       setError("");
+      // Redirect to dashboard
+      history.push("/dashboard");
     }
   };
 
