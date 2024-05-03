@@ -1,10 +1,10 @@
-import React from 'react';
-
 const TasksList = () => {
   return (
-    <div>
-      {/* Member tasks content goes here */}
-    </div>
+    <>
+      <div className="bg-white w-[30rem] h-[18rem] pt-[0.5rem] pl-[2rem]">
+        <h1 className="text-xl font-semibold">Pin board</h1>
+      </div>
+    </>
   );
 }
 

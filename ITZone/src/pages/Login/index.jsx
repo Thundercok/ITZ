@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import { useHistory } from "react-router-dom"; // Import useHistory hook
+import { useState } from "react";
 import Header from "../../components/Header";
 import "./styles.css"; 
 
@@ -7,7 +6,6 @@ const Login = () => {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  const history = useHistory(); // Initialize useHistory hook
 
   const handleLogin = (e) => {
     e.preventDefault();
@@ -27,7 +25,6 @@ const Login = () => {
 
   const handleForgotPassword = (e) => {
     e.preventDefault();
-    // Handle Forgot Password logic, like sending a reset link via email
     console.log("Forgot Password Clicked");
   };
 
